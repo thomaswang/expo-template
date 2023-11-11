@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "web-build": "expo export -p web",
-    "web-deploy": "vercel build && vercel deploy --prebuilt"
+    "web-deploy": "vercel build --prod && vercel deploy --prebuilt"
   },
   "dependencies": {
     "expo": "~49.0.18",
